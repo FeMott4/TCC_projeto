@@ -1,0 +1,56 @@
+/* Estilo do menu */
+.navbar-brand img{
+    width: 15vh;
+}
+.navbar{
+    background-color: #0B2C4D;
+}
+.offcanvas-header{
+    background-color: #040F1A;
+}
+.offcanvas-body {
+    background: rgb(4,15,26);
+background: linear-gradient(190deg, rgba(4,15,26,1) 0%, rgba(11,44,77,1) 35%, rgba(19,73,128,1) 100%);
+}
+
+/* Estilo do rodapé*/
+.footer{
+    /* position:fixed; */
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    flex-wrap: wrap;
+    margin-top: 15vh;
+
+    /* cor de fundo */
+    background: rgb(4,15,26);
+background: linear-gradient(190deg, rgba(4,15,26,1) 0%, rgba(11,44,77,1) 35%, rgba(19,73,128,1) 100%);
+}
+
+/* Estilo corpo do site */
+.contato a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-size: 2.3vh;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.contato img{
+    width: 45vh;
+
+}
+
+.conteudo{
+    border-style: solid;
+    border-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15vh;
+}
+

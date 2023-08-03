@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Clientes</title>
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/clientes.css">
+  </head>
+  <body>
+    <!-- Barra de navegação -->
+    <nav class=" navbar navbar-dark  fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="assets/img/logo-malvzuco-navbar.png" alt="logo da empresa"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Malvzuco</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Página Inicial</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="clientes.html">Clientes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contato.html">Contatos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="servicos.html">Serviços</a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Conteudo -->
+    <div class="simulacao ">
+      
+      <div class="form col-lg-12 d-flex justify-content-center">
+        <form action="\simular">
+          <h1>Simulação de orçamento</h1>
+
+          <div class="form-group">
+            <label for="exampleFormControlSelect1">Escolha o serviço</label>
+            <select class="form-control" id="exampleFormControlSelect1" name="servico"  >
+              <option>Escolha uma opção</option>
+              <option id="eletrica"> Instalção de parte Elétrica</option>
+              <option id="ar_condicionado">Instalação de ar condicionado</option>
+              <option id="manu_predio">Manutenção predial de elétrica/hidraulica</option>
+              <option id="manu_escola">Manutenção escolar e residencial de elétrica/hidraulica</option>
+             
+            </select>
+          </div>
+          
+          <div class="form-group">
+            <label for="exampleFormControlSelect2">Escolha a cidade</label>
+            <select class="form-control" id="exampleFormControlSelect2">
+              <option>Escolha uma opção</option>
+              <option class="distancia_boi-cap2">Boituva</option>
+              <option class="distancia_boi-cap2">Capela do Alto</option>
+              <option id="distancia_ipero1">Iperó</option>
+              <option class="distancia_sor-tatui3">Sorocaba</option>
+              <option class="distancia_sor-tatui3">Tatuí</option>
+              
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Digite o endereço</label>
+            <input type="" class="form-control" id="exampleFormControlInput1" placeholder="endereço" required>
+          </div>
+
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Telefone</label>
+            <input type="" class="form-control" id="exampleFormControlInput1" placeholder="número de contato">
+          </div>
+
+          <div class="form-group">
+            <button type="submit" class="btn btn-primary btn-lg btn-block">Confirmar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+
+     <!-- rodapé -->
+    
+    <div class="footer  d-flex  align-items-center ">
+      <div class="contato col-lg-5 col-sm-8">
+         <h4>E-MAIL:</h4> 
+         <h5>malvzuco@yahoo.com.br</h5> <br>
+     
+         <h4>TELEFONE:</h4> 
+         <h5>+15 99762-6275</h5>
+       </div>
+      <div class="contato col-lg-4 col-sm-8 ">
+         <h4>MAPA DO SITE</h4>
+         <ul>
+          <li><a href="index.html">Página inicial</a></li>
+          <li><a href="contato.html">Contatos</a></li>
+          <li><a href="servicos.html">Serviços</a></li>
+         </ul>
+      </div>
+      <div class="contato col-lg-3 col-sm-12 ">
+        <img src="assets/img/logo-malvzuco.png" alt="logo da empresa">
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="banco/banco.js"></script>
+  </body>
+</html>
